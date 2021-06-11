@@ -6,7 +6,7 @@ import glob
 #define the label ,images of which you want to process.
 label = "Parasitized"
 #here, glob() will return an array of all pathnames mathching the specified pattern..
-dirList = glob.glob("cell_images/"+label+"/*.png")
+dirList = glob.glob("cell_images/"+label+"/*.png")#fetching the pathnames.
 #open will open the csv file to store data.
 file = open("csv/dataset.csv","a")
 # traversing in the list of pathnames, and processing each image ,extracting features and store in csv file.

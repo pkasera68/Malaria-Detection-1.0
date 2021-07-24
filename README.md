@@ -1,5 +1,5 @@
 # Malaria-Detection-1.0
-The Machine Learning Project, capable to detect malaria parasite in the microscopic image of a blood-cell.
+The Machine Learning application, capable to detect malaria parasite in the microscopic image of a blood-cell.
 It is its V 1.0 .
 
 Tech stack:
